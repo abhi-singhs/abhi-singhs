@@ -1,6 +1,6 @@
 # Hi 👋, I'm Abhi
 
-- 👨‍💻 All of my projects are available at [abhi-singhs.github.io](https://abhi-singhs.github.io)
+- 👨‍💻 My Portfolio: [abhi-singhs.github.io](https://abhi-singhs.github.io)
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhi2810) 
