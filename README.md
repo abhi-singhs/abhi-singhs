@@ -1,6 +1,6 @@
 # Hi 👋, I'm Abhi
 
-- 👨‍💻 My Portfolio: <a href="https://abhi-singhs.github.io" target="_blank">abhi-singhs.github.io</a>
+- 👨‍💻 My Portfolio: <a href="https://abhisingh.in" target="_blank">abhisingh.in</a>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhi2810) 
