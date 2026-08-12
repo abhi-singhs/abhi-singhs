@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Let's build something — reach out at abhisingh.in">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b7cd6" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#0b7cd6" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#00b8cc" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00b8cc" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b6fd0"/>
+      <stop offset="55%" stop-color="#0aa2c9"/>
+      <stop offset="100%" stop-color="#00b3c4"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0; 0.3 0; -0.3 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#5b7fa8" stroke-opacity="0.1" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect x="0" y="0" width="1200" height="170" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="170" fill="#f7fafd"/>
+    <rect width="1200" height="170" fill="url(#grid)"/>
+    <ellipse cx="600" cy="0" rx="620" ry="200" fill="url(#glow)"/>
+    <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+    <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="600" y="72" font-size="34" font-weight="800" letter-spacing="-0.5" fill="url(#head)">Let&#8217;s build something worth shipping.</text>
+      <text x="600" y="106" font-size="16" font-weight="500" fill="#5c6b82">Always up for a conversation about developer platforms, automation, and AI&#8209;assisted engineering.</text>
+
+      <g>
+        <rect x="516" y="124" width="168" height="34" rx="17" fill="#ffffff" stroke="#d8e3ee"/>
+        <text x="600" y="146" font-size="14" font-weight="700" letter-spacing="0.6" fill="#0b7cd6">abhisingh.in &#8594;</text>
+      </g>
+    </g>
+  </g>
+</svg>
