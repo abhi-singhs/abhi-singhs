@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Abhi Singh — Enterprise Solutions Engineer at GitHub, Pune India">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="45%" stop-color="#dff7ff"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0; 0.3 0; -0.3 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="baseBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#4facfe" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#00f2fe" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#8fa3bd" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect x="0" y="0" width="1200" height="330" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="330" fill="#0a0b0f"/>
+    <rect width="1200" height="330" fill="url(#grid)"/>
+
+    <circle cx="1010" cy="150" r="290" fill="url(#glowA)">
+      <animate attributeName="r" values="290;320;290" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="330" r="240" fill="url(#glowB)">
+      <animate attributeName="r" values="240;270;240" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- decorative orbit system -->
+    <g transform="translate(1006 165)" fill="none" stroke="url(#accent)">
+      <circle r="128" stroke-opacity="0.14" stroke-width="1"/>
+      <circle r="98" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="3 9"/>
+      <circle r="66" stroke-opacity="0.30" stroke-width="1"/>
+      <circle r="34" stroke-opacity="0.45" stroke-width="1.5"/>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+        <circle cx="128" cy="0" r="5" fill="#4facfe" stroke="none"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="120" to="-240" dur="13s" repeatCount="indefinite"/>
+        <circle cx="98" cy="0" r="3.5" fill="#00f2fe" stroke="none"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="240" to="600" dur="8s" repeatCount="indefinite"/>
+        <circle cx="66" cy="0" r="3" fill="#8fe9ff" stroke="none"/>
+      </g>
+
+      <circle r="12" fill="url(#accent)" stroke="none" fill-opacity="0.9">
+        <animate attributeName="r" values="12;15;12" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- content -->
+    <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text x="64" y="104" font-size="14" font-weight="700" letter-spacing="4.5" fill="#7b8ca4">SOLUTIONS ENGINEERING · AUTOMATION · DEVOPS</text>
+
+      <text x="64" y="180" font-size="70" font-weight="800" letter-spacing="-1.5" fill="url(#nameGrad)">Abhi Singh</text>
+
+      <rect x="64" y="200" width="360" height="2" rx="1" fill="url(#rule)"/>
+
+      <text x="64" y="238" font-size="25" font-weight="500" fill="#c6d2e2">Enterprise <tspan fill="#4facfe" font-weight="700">Solutions Engineer</tspan></text>
+
+      <g font-size="14" font-weight="600">
+        <g>
+          <rect x="64" y="262" width="126" height="32" rx="16" fill="#12161f" stroke="#212b3a"/>
+          <circle cx="84" cy="278" r="3.5" fill="#4facfe"/>
+          <text x="96" y="283" fill="#93a3b8">Pune, India</text>
+        </g>
+        <g>
+          <rect x="200" y="262" width="186" height="32" rx="16" fill="#12161f" stroke="#212b3a"/>
+          <circle cx="220" cy="278" r="3.5" fill="#00f2fe"/>
+          <text x="232" y="283" fill="#93a3b8">Developer Platforms</text>
+        </g>
+        <g>
+          <rect x="396" y="262" width="212" height="32" rx="16" fill="#12161f" stroke="#212b3a"/>
+          <circle cx="416" cy="278" r="3.5" fill="#8fe9ff"/>
+          <text x="428" y="283" fill="#93a3b8">AI-Assisted Engineering</text>
+        </g>
+      </g>
+    </g>
+
+    <rect x="0" y="326" width="1200" height="4" fill="url(#baseBar)"/>
+  </g>
+</svg>
